@@ -1,0 +1,113 @@
+*{
+	
+}
+html,body{
+	height: 100%;
+}
+#nav{
+	padding: 2px 0;
+	width: 100%;
+	background-color: #72dbe9;
+	box-shadow: 0 5px 5px rgba(180,180,180,0.5);
+	z-index: 30;
+	position: fixed;
+}
+#nav nav{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+#nav ul{
+	list-style: none;
+	line-height: 55px;
+}
+#nav ul li{
+	display: inline-block;
+	margin-left: 55px;
+}
+#nav ul li a{
+	text-decoration: none;
+}
+div.canvasWrap{
+	height: 80%;
+	background-color: #72dbe9;
+}
+.canvasTitle{
+	font-size: 5em;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: 70%;
+}
+
+h1{
+	font-weight: 9em;
+}
+.f-gokuboso{
+	font-family: "gokuboso";
+}
+.f-focus{
+	font-family: "focus";
+}
+.f-anke{
+	font-family: "anke";
+}
+.f-dual{
+	font-family: "dual";
+}
+#newsBox{
+	border: 1px #000 solid;
+	border-radius: 25px;
+	max-width: 21em;
+	background-color: #eee;
+	height: 500px;
+}
+#newsBox h2{
+	width: 100%;
+	padding: 8px 0;
+	background-color: #fff;
+	margin-top: 0;
+	border-radius: 25px 25px 0 0 ;
+	text-align: center;
+	box-shadow: 0 1px 5px #777;
+}
+#newsBox ul{
+	list-style: none;
+}
+.inner{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 55em;
+}
+.aboutus{
+	text-align: center;
+	margin-top: 89px;
+}
+.aboutus section{
+	margin-top: 55px;
+}
+section h2{
+	margin-bottom: 34px;
+}
+.description{
+	text-align: left;
+	position: relative;
+	left: 233px;
+	top: 20px;
+}
+.m-contentTitle{
+	text-align: center;
+}
+#colorBox{
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+}
+.sectionImage{
+	width: 144px;
+	height: 144px;
+	background-color: #aaa;
+	position: relative;
+	left: 600px;
+	top: -175px;
+}
