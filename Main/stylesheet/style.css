@@ -7,8 +7,8 @@ html,body{
 #nav{
 	padding: 2px 0;
 	width: 100%;
-	background-color: #72dbe9;
-	box-shadow: 0 5px 5px rgba(180,180,180,0.5);
+	background-color: rgba(255,255,255,0);
+	box-shadow: 0 0px 0px rgba(180,180,180,0.5);
 	z-index: 30;
 	position: fixed;
 }
@@ -16,20 +16,23 @@ html,body{
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+	
 }
-#nav ul{
+#nav nav ul{
 	list-style: none;
 	line-height: 55px;
+	
 }
-#nav ul li{
+#nav nav ul li{
 	display: inline-block;
-	margin-left: 55px;
+	margin-right: 55px;
 }
 #nav ul li a{
+	color: #fff;
 	text-decoration: none;
 }
 div.canvasWrap{
-	height: 80%;
+	height: 610px;
 	background-color: #72dbe9;
 }
 .canvasTitle{
@@ -78,6 +81,7 @@ h1{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 55em;
+	background-color: #aaa;
 }
 .aboutus{
 	text-align: center;
@@ -110,4 +114,17 @@ section h2{
 	position: relative;
 	left: 600px;
 	top: -175px;
+}
+.events{
+	width: 144px;
+	height: 144px;
+	background-color: #000;
+	display: inline-block;
+	margin: 0 34px;
+	border-radius: 50%;
+}
+.eventsWrap{
+	text-align: center;
+	position: relative;
+	top: 40%;
 }
