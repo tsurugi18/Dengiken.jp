@@ -11,27 +11,27 @@ $(function(){
 		}
 	});
 	var timeStamps = $('.timestamp'),monthTitle = $('.monthSub'),timeTitle = $('.timeTitle'),clickflag = false,
-	monthContent = ['１月','2月','3月','4月新入生講習会','5月','6月','7月','8月WRO','9月文化祭','１0月','１1月','１2月'];
+	monthContent = ['１月','2月','3月','4月新入生講習会','5月','6月','7月','8月WRO準備','9月文化祭','１0月','１1月','１2月'];
 	timeStamps.hover(function(){
 		var stampIndex = $(this).index();
 		monthTitle.text(monthContent[stampIndex]);
-		timeTitle.text(monthContent[stampIndex]);
 		monthTitle.stop().fadeIn();
 		monthTitle.css('left' , timeStamps.eq(stampIndex).position().left - (monthTitle.width() / 3)+ 'px');
 		timeStamps.click(function(){
 			var monthDetail = $('.stampDetail');
-			monthTitle.text(monthContent[stampIndex]);
+			timeTitle.text(monthContent[stampIndex]);
 			monthDetail.slideDown('slow');
-			$('html,body').animate({scrollTop : timeStamps.position().top},'slow');
+			$('html,body').animate({scrollTop : monthDetail.position().top},'slow');
 			clickflag = true;
 			monthDetail.click(function(){
 				$(this).slideUp('slow');
-				monthTitle.text('年間予定');
+				timeTitle.text('年間予定');
 				clickflag = false;
 			});
 		});
 	},function(){
-		if(!clickflag){monthTitle.text('年間予定');}
+		monthTitle.stop().fadeOut();
+
 		
 	});
 });

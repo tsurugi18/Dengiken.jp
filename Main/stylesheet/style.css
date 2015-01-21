@@ -93,6 +93,7 @@ html,body{
 	margin-left: 18px;
 }
 .monthSub{
+	display: none;
 	position: relative;
 	max-width: 144px;
 	padding: 0 10px 10px 10px;
