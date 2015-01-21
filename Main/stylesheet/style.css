@@ -1,37 +1,39 @@
-*{
-	
-}
 html,body{
 	height: 100%;
+	width: 100%;
+}
+.inner{
+	margin: 0 auto;
+	max-width: 55em;
+	background-color: #aaa;
 }
 #nav{
-	padding: 2px 0;
 	width: 100%;
+	padding: 2px 0;
 	background-color: rgba(255,255,255,0);
-	box-shadow: 0 0px 0px rgba(180,180,180,0.5);
-	z-index: 30;
+	box-shadow: 0 3px 3px rgba(180,180,180,0.5);
 	position: fixed;
+	z-index: 30;
 }
 #nav nav{
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	
 }
 #nav nav ul{
 	list-style: none;
 	line-height: 55px;
-	
 }
 #nav nav ul li{
 	display: inline-block;
 	margin-right: 55px;
 }
-#nav ul li a{
+#nav nav ul li a{
 	color: #fff;
 	text-decoration: none;
 }
-div.canvasWrap{
+.canvasWrap{
+	color: #fff;
 	height: 610px;
 	background-color: #72dbe9;
 }
@@ -42,70 +44,84 @@ div.canvasWrap{
 	position: relative;
 	top: 70%;
 }
-
-h1{
-	font-weight: 9em;
-}
-.f-gokuboso{
-	font-family: "gokuboso";
-}
-.f-focus{
-	font-family: "focus";
-}
-.f-anke{
-	font-family: "anke";
-}
-.f-dual{
-	font-family: "dual";
-}
-#newsBox{
-	border: 1px #000 solid;
-	border-radius: 25px;
-	max-width: 21em;
-	background-color: #eee;
-	height: 500px;
-}
-#newsBox h2{
-	width: 100%;
-	padding: 8px 0;
-	background-color: #fff;
-	margin-top: 0;
-	border-radius: 25px 25px 0 0 ;
-	text-align: center;
-	box-shadow: 0 1px 5px #777;
-}
-#newsBox ul{
-	list-style: none;
-}
-.inner{
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 55em;
-	background-color: #aaa;
-}
-.aboutus{
-	text-align: center;
-	margin-top: 89px;
+.page-section{
+	padding: 100px 0;
+	margin-bottom: -100px;
 }
 .aboutus section{
-	margin-top: 55px;
+	margin-top: 34px;
 }
-section h2{
-	margin-bottom: 34px;
+.aboutus section h2{
+	margin-top: 34px;
 }
-.description{
-	text-align: left;
-	position: relative;
-	left: 233px;
-	top: 20px;
-}
-.m-contentTitle{
-	text-align: center;
-}
-#colorBox{
-	width: 100px;
-	height: 100px;
+.timelineWrap{
+	max-width: 41.3em;
+	height: 0.3em;
 	background-color: #000;
+	margin: 0 auto;
+}
+.timelineWrap ul{
+	width: 100%;
+}
+.timeTitle{
+	text-align: center;
+	
+}
+.stampDetail{
+	margin: 0 auto;
+	max-width: 25em;
+	background-color: #000;
+	padding: 20px 0;
+	margin-bottom: 2em;
+	display: none;
+}
+.stampDetail h4{
+	color: #fff;
+	text-align: left;
+}
+.timestamp{
+	list-style: none;
+	display: inline-block;
+	height: 1.5em;
+	width: 1.5em;
+	border: 0.2em #fff solid;
+	position: relative;
+	bottom: 0.7em;
+	left: -2.75em;
+	background-color: #f55;
+	border-radius: 50%;
+	margin-left: 18px;
+}
+.monthSub{
+	position: relative;
+	max-width: 144px;
+	padding: 0 10px 10px 10px;
+	color: #fff;
+	text-align: center;
+	top: 10px;
+	background-color: #000;
+}
+.monthSub::before{
+	
+	width: 0;
+	height: 0;
+	border-style: solid;
+    border-width: 8px;
+    border-color: transparent;
+    border-bottom-color: #000;
+	position: relative;
+	top: -16px;
+	margin: 0 auto;
+	content: "";
+	display: block;
+}
+.text-left{
+	text-align: left;
+	margin-left: 55px;
+}
+.text-right{
+	text-align: right;
+	margin-right: 55px;
 }
 .sectionImage{
 	width: 144px;
@@ -128,3 +144,16 @@ section h2{
 	position: relative;
 	top: 40%;
 }
+.f-gokuboso{
+	font-family: "gokuboso";
+}
+.f-focus{
+	font-family: "focus";
+}
+.f-anke{
+	font-family: "anke";
+}
+.f-dual{
+	font-family: "dual";
+}
+#ne
