@@ -16,7 +16,7 @@ $(function(){
 		var stampIndex = $(this).index();
 		monthTitle.text(monthContent[stampIndex]);
 		monthTitle.stop().fadeIn();
-		monthTitle.css('left' , timeStamps.eq(stampIndex).position().left - (monthTitle.width() / 3)+ 'px');
+		monthTitle.css('left' , timeStamps.eq(stampIndex).position().left - (monthTitle.width() / 2.65)+ 'px');
 		timeStamps.click(function(){
 			var monthDetail = $('.stampDetail');
 			timeTitle.text(monthContent[stampIndex]);

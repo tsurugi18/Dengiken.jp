@@ -95,7 +95,7 @@ html,body{
 .monthSub{
 	display: none;
 	position: relative;
-	max-width: 144px;
+	max-width: 200px;
 	padding: 0 10px 10px 10px;
 	color: #fff;
 	text-align: center;
